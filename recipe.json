@@ -1,0 +1,21 @@
+{
+					  "recipe_ver": "0.0.1",
+					  "name": "website",
+					  "description": "Website description",
+					  "author": "prevjs.com",
+					  "production_url": "https://website.com",
+					  
+					   "optimize": {
+					    "webp": "true",
+					    "minify_js": "true",
+					    "minify_css": "true",
+					    "minify_html": "true"
+					  },
+					  "deploy": {
+					    "domain": "https://website.com",
+					    "type": "aws",
+					    "aws_bucket": "",
+					    "aws_cfdistributions": ""
+					  }
+					}
+					

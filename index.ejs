@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap layout</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" type='text/css' href="css/index.css">
+    
+    
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+ 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+ 	
+ 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+ 	
+</head>
+
+<body>
+
+    
+    
+
+<!-- start of Header - 3 column layout with action buttons -->
+
+<header class="site-header bs_header_layout_5">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <div class="bs_logo_wrapper"><img src="https://s3.amazonaws.com/assets.mockflow.com/app/wireframepro/blockui/Md7446145727293055f6c16cd6c434d641643366219611/assets/Mf8d2fcb27959c6622461f0ddf57ffd811643435146826/logoipsum-logo-8.svg" alt="Logo" class="bs_logo" /></div>
+                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse"
+                        data-bs-target="#header5navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-between"
+                        id="header5navbarCollapse">
+                        <div class="navbar-nav bs_menu_links">
+                            <a href="#" class="nav-item nav-link active">Home</a>
+                            <a href="#" class="nav-item nav-link">About Us</a>
+                            <a href="#" class="nav-item nav-link">Services</a>
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Messages</a>
+                                <div class="dropdown-menu">
+                                    <a href="#" class="dropdown-item">Inbox</a>
+                                    <a href="#" class="dropdown-item">Sent</a>
+                                    <a href="#" class="dropdown-item">Drafts</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="navbar-nav">
+                            <div class="bs_header_btn_wrapper bs_signin_btn_blk">
+                                <a href="#" class="nav-item nav-link bs_signin_btn">Sign In</a>
+                            </div>
+                            <div class="bs_header_btn_wrapper bs_signup_btn_blk">
+                                <a href="#" class="nav-item nav-link bg-primary text-white bs_signup_btn">Sign Up</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+<!-- end of Header - 3 column layout with action buttons -->
+
+
+
+<!-- start of Hero - Single column layout center aligned and big hero image -->
+
+        <div class="bs_hero-container bs_hero_layout_2">
+            <div class="px-4 pt-5 my-5 text-center border-bottom">
+                <h1 class="display-4 fw-bold">Heading 1</h1>
+                <div class="col-lg-6 mx-auto">
+                    <p class="lead mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur vero odio, amet ea reiciendis quasi corporis ullam unde, debitis voluptatum quibusdam modi accusantium fugiat odit.
+                    </p>
+                    <div class="d-grid gap-2 d-flex justify-content-center mb-5">
+                        <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Button 1</button>
+                        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Button 2</button>
+                    </div>
+                </div>
+                <div class="overflow-hidden">
+                    <div class="container px-5">
+                        <img src="https://s3.amazonaws.com/assets.mockflow.com/app/wireframepro/blockui/M278f1dc8959bf94bb2ed52ffefe85caf1643366644921/assets/M4d6b70b1ed222472257bb4b1800688891643367080976/hero_layout2-img.png" class="img-fluid rounded-3 mb-4"
+                            alt="Hero-img" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!-- end of Hero - Single column layout center aligned and big hero image -->
+
+
+
+<!-- start of Features - 2 column layout with image on left and highlights on right -->
+
+<div class="bs_features-container bs_feature_layout_5">
+        <div class="container px-4 py-5">
+            <h2 class="pb-2 text-center">Features</h2>
+            <div class="row py-5 row-cols-1 row-cols-lg-2 align-items-center">
+                <div class="col-lg-6 my-3">
+                    <div class="bs_feature_image_container">
+                        <img src="https://s3.amazonaws.com/assets.mockflow.com/app/wireframepro/blockui/Me0f706cc5a3c2f17cd2bb572a17c9c551643368585437/assets/M58be45a1f4b7b011d2e8f5e5ca5a43201643437853739/undraw_preferences_popup_re_4qk0.svg" alt="feature_img" class="img-fluid" />
+                    </div>
+                </div>
+                <div class="col-lg-6 my-3 ">
+                    <div class="col d-flex align-items-start my-5">
+                        <div class="bs_feature_icon bg-light text-primary flex-shrink-0 me-3">
+                            <i class="bi bi-gear"></i>
+                        </div>
+                        <div class="bs_feature_content">
+                            <h4>Title 1</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt
+                                ut labore et dolore magna aliqua.</p>
+                            <a href="#" class="text-secondary text-decoration-none"><span>Read More</span><span><i
+                                        class="bi bi-arrow-right-short"></i></span></a>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-start my-5">
+                        <div class="bs_feature_icon bg-light text-primary flex-shrink-0 me-3">
+                            <i class="bi bi-boxes"></i>
+                        </div>
+                        <div class="bs_feature_content">
+                            <h4>Title 2</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt
+                                ut labore et dolore magna aliqua.</p>
+                            <a href="#" class="text-secondary text-decoration-none"><span>Read More</span><span><i
+                                        class="bi bi-arrow-right-short"></i></span></a>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-start my-5">
+                        <div class="bs_feature_icon bg-light text-primary flex-shrink-0 me-3">
+                            <i class="bi bi-back"></i>
+                        </div>
+                        <div class="bs_feature_content">
+                            <h4>Title 3</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt
+                                ut labore et dolore magna aliqua.</p>
+                            <a href="#" class="text-secondary text-decoration-none"><span>Read More</span><span><i
+                                        class="bi bi-arrow-right-short"></i></span></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+<!-- end of Features - 2 column layout with image on left and highlights on right -->
+
+
+
+<!-- start of CTA 1 -->
+
+<%- include ('PARTIALS/M8c89854d5f5b8a6a0aeb6b24c1ae3d6b1643374453096'); %>
+
+<!-- end of CTA 1 -->
+
+
+
+<!-- start of Features with left aligned contents -->
+
+ <div class="bs_features-container bs_feature_layout_6">
+        <div class="container px-4 py-5">
+            <h2 class="pb-2 display-4 fw-semibold text-center bs_fw_500">Lorem ipsum dolor imit.</h2>
+
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 g-4 py-5">
+                <div class="col px-sm-4">
+                    <i class="text-muted bi bi-bootstrap"></i>
+                    <div>
+                        <h5 class="fw-bold py-3">Feature 1</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores repellendus obcaecati illo voluptas molestias nobis.</p>
+                    </div>
+                </div>
+                <div class="col px-sm-4">
+                    <i class="text-muted bi bi-cpu-fill"></i>
+                    <div>
+                        <h5 class="fw-bold py-3">Feature 2</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores repellendus obcaecati illo voluptas molestias nobis.</p>
+                    </div>
+                </div>
+                <div class="col px-sm-4">
+                    <i class="text-muted bi bi-calendar3"></i>
+                    <div>
+                        <h5 class="fw-bold py-3">Feature 3</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores repellendus obcaecati illo voluptas molestias nobis.</p>
+                    </div>
+                </div>
+                <div class="col px-sm-4">
+                    <i class="text-muted bi bi-house-door"></i>
+                    <div>
+                        <h5 class="fw-bold py-3">Feature 4</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores repellendus obcaecati illo voluptas molestias nobis.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+<!-- end of Features with left aligned contents -->
+
+
+
+<!-- start of CTA 1 -->
+
+<%- include ('PARTIALS/M8c89854d5f5b8a6a0aeb6b24c1ae3d6b1643374453096'); %>
+
+<!-- end of CTA 1 -->
+
+
+
+<!-- start of Features - grid layout with icons -->
+
+<div class="bs_features-container bs_feature_layout_3">
+        <div class="container px-4 py-5">
+            <h2 class="pb-2 border-bottom">Features</h2>
+
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+                <div class="col d-flex align-items-start">
+                    <i class="me-3 text-muted bi bi-bootstrap"></i>
+                    <div>
+                        <h5 class="fw-bold">Feature 1</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <i class="me-3 text-muted bi bi-cpu-fill"></i>
+                    <div>
+                        <h5 class="fw-bold">Feature 2</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <i class="me-3 text-muted bi bi-calendar3"></i>
+                    <div>
+                        <h5 class="fw-bold">Feature 3</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <i class="me-3 text-muted bi bi-house-door"></i>
+                    <div>
+                        <h5 class="fw-bold">Feature 4</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <i class="me-3 text-muted bi bi-speedometer2"></i>
+                    <div>
+                        <h5 class="fw-bold">Feature 5</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <i class="me-3 text-muted bi bi-toggles2"></i>
+                    <div>
+                        <h5 class="fw-bold">Feature 6</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <i class="me-3 text-muted bi bi-geo-fill"></i>
+                    <div>
+                        <h5 class="fw-bold">Feature 7</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <i class="me-3 text-muted bi bi-tools"></i>
+                    <div>
+                        <h5 class="fw-bold">Feature 8</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- end of Features - grid layout with icons -->
+
+
+    
+    
+
+</body>
+
+</html>
